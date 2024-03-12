@@ -1,4 +1,5 @@
 # ansible-tips
+```yaml
 gather_facts: no
 tasks:
   - name: Wait for the reboot to complete
@@ -15,3 +16,4 @@ tasks:
       state: started
     connection: local
     become: no
+```
